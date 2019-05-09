@@ -1,4 +1,4 @@
-##I used my first React Hook! 
+## I used my first React Hook! 
 
 I was working on a div that would toggle open and close on click. I started the component as a stateless functional component (is that the term?). Basically not a Class component. 
 After I finished the UI, I started thinking about the toggling open and close. This is the first time I'm implementing toggling since bootcamp.
@@ -12,25 +12,47 @@ Here's my story:
 4. What does the `.open` class need again? Google css toggle class....`Display: none;` when the div is closed. So initial state is closed and `display: none;`
 5. Oh I need state! onClick change the state and flip the class. Got it!!
 6. Oh I need state.....I need to change this component to a Class.
-7. REACT HOOK USESTATE!!!!!!!!!!!!!!! *air horns*
+![A lightbulb turns on over someone's head as they get an idea.
+](https://media.giphy.com/media/Mjq9vmDuJlBKw/giphy.gif)
+7. REACT HOOK USESTATE!!!!!!!!!!!!!!! * air horns *
 
 
 
 My beautiful toggle looks like this
 
-```const toggleOpen = () => {
+
+js
+```
+import React from 'react'
+
+const ToggleDiv = () => {
   const [isOpen, setIsOpen] = React.useState(false)
   const toggle = () => setIsOpen(!isOpen)
 
   <div className='toggle' onClick={toggle}>
-        <p>TITLE (count)</p>
-        <span>
-          {isOpen ? <FontAwesomeIcon icon={faChevronUp} /> : <FontAwesomeIcon icon={faChevronDown} /> } 
-        </span>
-      </div>
-      <div className={`container ${isOpen ? 'open' : ''}`}>
-        {list of stuff}
+     <p>TITLE</p>
+     <span>
+       {isOpen ? <FontAwesomeIcon icon={faChevronUp} /> : <FontAwesomeIcon icon={faChevronDown} /> } 
+     </span>
   </div>
+  <div className={`container ${isOpen ? 'open' : ''}`}>
+    {list of stuff}
+  </div>
+}
 
+export default ToggleDiv
+```
+
+css
+```
+.toggle {
+  margin-top: 2px;
+  display: none;
+}
+
+.open {
+  display: block;
 }
 ```
+
+Super awesome 'a-ha' moment and feeling. I love how I can use `isOpen` anywhere throughout the component. I used it to set the chevron icon to show if the div is open or closed. It flips between pointing up and down. 
