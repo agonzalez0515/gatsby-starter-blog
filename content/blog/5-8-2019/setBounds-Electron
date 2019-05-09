@@ -1,0 +1,28 @@
+---
+title: SetBounds in Electron
+date: "2019-05-08"
+description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
+---
+
+
+I'm working on an Electron App that will mostly be used by Windows users. The app is a sidebar that collapses, think the sidebar in VS Code that closes with ctrl+b.
+Electron lets you set the size of the window with `setSize`, so at first this felt pretty easy. But then.....it wasn't. The requirements were the sidebar should be docked at the edge of the screen
+and it should be the whole height of the screen. I could set the width easily by giving it a set pixel size, but how do I set the height to be the whole screen?
+There's all kinds of screen sizes!! I tried 100%, but that didn't work. 
+
+Ok off to Electron documentation we go.
+
+After some search, I find out that Electron has an API for the Screen. This is the magic of Electron, it can interact with your machine!
+Using `let displays = electron.screen.getPrimaryDisplay()` I can get the width and height of the screen. So then I use the screen height in setSize and tada!
+
+```
+
+```
+
+show setSize(width, height) example.
+how to do open and close with setBounds
+another problem - docks to the right because x,y
+fix for dock to the left
+my bug with when y = height
+how i fixed the bug and the fact that testing it in windows made me see the problem vs why I hadn't seen it in mac
+
