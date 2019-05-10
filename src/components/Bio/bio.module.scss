@@ -3,7 +3,7 @@
 .bio-container {
   display: flex;
   flex-direction: column;
-  align-items: center
+  align-items: center;
 }
 
 .author {
@@ -20,3 +20,8 @@
   font-weight: 100;
   margin-bottom: 1.5rem;
 }
+
+.profile-pic {
+  border-radius: 50%;
+}
+

@@ -16,7 +16,6 @@ const Header = () => {
           }
         }
       `}
-
       render={data => 
         <header>
           <h1 className={styles.title}>
@@ -34,17 +33,19 @@ class Layout extends React.Component {
     return (
       <div className={styles.wrapper}>
         <div className={styles.container}>
-          <aside><Sidebar /></aside>
-          <main>
+          <aside>
+            <Sidebar />
+          </aside>
+          <div className={styles.main}>
             <Header />
-            {this.props.children}
-          </main>
-        </div>
-        <footer>
+            <main>{this.props.children} </main>
+          </div>
+          <footer>
           © {new Date().getFullYear()}, Built with &hearts; and
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
         </footer>
+        </div>
       </div>
     )
   }
