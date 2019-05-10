@@ -27,19 +27,30 @@ My beautiful toggle looks like this
 import React from 'react'
 
 const ToggleDiv = () => {
-  const [isOpen, setIsOpen] = React.useState(false)
-  const toggle = () => setIsOpen(!isOpen)
-
-  <div className='toggle' onClick={toggle}>
-     <p>TITLE</p>
-     <span>
-       {isOpen ? <FontAwesomeIcon icon={faChevronUp} /> : <FontAwesomeIcon icon={faChevronDown} /> } 
-     </span>
-  </div>
-  <div className={`container ${isOpen ? 'open' : ''}`}>
-    {list of stuff}
-  </div>
-}
+  const [isOpen, setIsOpen] = React.useState(false);
+  const toggle = () => setIsOpen(!isOpen);
+  return (
+    <React.Fragment>
+      <div onClick={toggle}>
+        <p>Click To Open</p>
+        <span>
+          {isOpen ? 
+            <FontAwesomeIcon icon={faChevronUp} />
+           : 
+            <FontAwesomeIcon icon={faChevronDown} />
+          }
+        </span>
+      </div>
+      <div className={`container toggle ${isOpen ? "open" : ""}`}>
+        <ul>
+          <li>list</li>
+          <li>of</li>
+          <li>stuff</li>
+        </ul>
+      </div>
+    </React.Fragment>
+  );
+};
 
 export default ToggleDiv
 ```
