@@ -8,9 +8,6 @@ class Projects extends React.Component {
     return (
       <>
         <SEO title='Projects' />
-        <p>Udacity PWA</p>
-        <p>Natalia</p>
-        <p>Github Bot</p>
       </>
     )
   }
