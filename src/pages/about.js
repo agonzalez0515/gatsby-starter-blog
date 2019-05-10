@@ -13,8 +13,8 @@ class AboutMe extends React.Component {
         <div>
           <h2>Hi!</h2>
           <p>
-            I'm a Front End Developer at Internet Brands, working on growing my skills everyday. I love learning, researching, and that feeling when things click.
-            Currenty I work with React, and I'm interested in and learning every day about accessibility, Progressive Web Apps, and the jam stack (this site is built with Gatsby!).
+            I'm a Front End Developer working on growing my skills everyday. I love learning, researching, and that feeling when things click.
+            Currenty I work with React, and I'm interested in and learning about accessibility, Progressive Web Apps, and the jam stack (this site is built with Gatsby!).
             </p>
             <p>
             I have a Bachelors of Arts from UC Berkeley in Sociology and Gender & Women's Studies. In 2016, I attended Dev Bootcamp in San Francisco to pursue a developer career. After bootcamp,
