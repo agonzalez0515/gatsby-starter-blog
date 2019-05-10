@@ -13,7 +13,7 @@ class BlogPostTemplate extends React.Component {
       <React.Fragment>
         <SEO
           title={post.frontmatter.title}
-          description={post.frontmatter.description || post.excerpt}
+          description={post.excerpt}
         />
         <h1>{post.frontmatter.title}</h1>
         <p
