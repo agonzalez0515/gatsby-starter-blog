@@ -20,12 +20,8 @@ module.exports = {
         path: '/about'
       },
       {
-        label: 'Work',
-        path: '/work'
-      },
-      {
-        label: 'Contact',
-        path: '/contact'
+        label: 'Projects',
+        path: '/projects'
       }
     ]
   },
@@ -66,7 +62,12 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
-          `gatsby-remark-prismjs`,
+          {
+            resolve:`gatsby-remark-prismjs`,
+            options: {
+              classPrefix: `language-`,
+            }
+          },
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
           `gatsby-plugin-sass`
