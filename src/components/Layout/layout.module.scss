@@ -30,16 +30,19 @@
   justify-content: center;
 
   aside {
-    // width: 100%;
     max-width: 20rem;
     padding: 1rem;
+    margin-left: 5rem;
+  }
+
+  .main {
+    flex: 1;
   }
 }
 
 @include breakpoint-md {
   .wrapper {
-    height: 100vh;
-
+    min-height: 100vh;
     .title {
       text-align: right;
     }
@@ -49,13 +52,11 @@
     flex-flow: row nowrap;
 
     aside {
-      align-self: center;
       margin-top: 5rem;
     }
 
-    main {
-      width: 50rem;
-      margin-left: 5rem;
+    .main {
+      margin-left: 8rem;
     }
   }
 }

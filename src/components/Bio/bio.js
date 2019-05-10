@@ -14,9 +14,7 @@ function Bio() {
             <Image
               fixed={data.avatar.childImageSharp.fixed}
               alt={author}
-              imgStyle={{
-                borderRadius: `50%`,
-              }}
+              className={styles.profilePic}
             />
             <h2 className={styles.author}>{author}</h2>
             <Image fixed={data.laptop.childImageSharp.fixed} alt='laptop icon' />
