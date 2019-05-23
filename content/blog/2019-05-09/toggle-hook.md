@@ -1,6 +1,6 @@
 ---
 title: I used my first React Hook!
-date: "2015-05-09"
+date: "2019-05-09"
 ---
 
 Today I was working on a div that toggles open and close when you click it to show a list of items. I started the component as a functional component. After I finished the UI and all the pretty css, I started thinking about the toggling. This is the first time since bootcamp that I'm writing a toggle from scratch. I remember using jQuery there to add and remove the class, but we don't use jQuery anymore. 
