@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 import PropTypes from "prop-types"
 
 export default function HTML(props) {
@@ -25,8 +25,10 @@ export default function HTML(props) {
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
         {props.postBodyComponents}
-        <script>
-          if (window.netlifyIdentity) {
+        <script 
+          dangerouslySetInnerHTML={{
+            __html:`
+            if (window.netlifyIdentity) {
             window.netlifyIdentity.on("init", user => {
               if (!user) {
                 window.netlifyIdentity.on("login", () => {
@@ -35,7 +37,10 @@ export default function HTML(props) {
               }
             })
           }
-        </script>
+            `
+          }}
+        />
+
       </body>
     </html>
   )
