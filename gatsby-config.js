@@ -3,8 +3,8 @@ module.exports = {
     title: `👑 Her Majesty`,
     subtitle: `is a pretty nice girl`,
     author: `Angie Gonzalez`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    description: `Learning Blog`,
+    siteUrl: `https://angiegonzalez.dev`,
     icon: `content/assets/laptop.png`,
     social: {
       twitter: `angieg0nzalez`,
