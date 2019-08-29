@@ -41,7 +41,7 @@
   "devDependencies": {
     "prettier": "^1.16.4"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://github.com/agonzalez0515/angieGonzalez",
   "keywords": [
     "gatsby"
   ],
@@ -49,7 +49,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "https://github.com/agonzalez0515/gatsby-starter-blog"
+    "url": "https://github.com/agonzalez0515/angieGonzalez"
   },
   "scripts": {
     "build": "gatsby build",
