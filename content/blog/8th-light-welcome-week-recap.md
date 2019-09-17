@@ -20,7 +20,7 @@ Started working on the cohort agreement and once again realized I have not spent
 
 I really enjoyed the learning workshop by Doug Bradbury. I liked when he broke down the differences between a student and an apprentice. I was definitely coming in with a student mentality, but switching to apprentice gives me a more active role. He said "learning is your responsibility", and I really like the power that puts on us. He also said to make sure to learn from everyone around you, it is very likely someone near you has just solved or worked on the problem you are working on, and this is a chance to be helped so that you can then also pass that on. 
 
-The most important part to making the most of the apprenticeship and learning the effectively is feedback! Feedback accelerates the process. But he also says to remember that feedback is usually about the person giving it, not the person receiving it. Take a second to think about it from the perspective of the other person before reacting to it defensively. This helps build empathy and communication. 
+The most important part to making the most of the apprenticeship and learning effectively is feedback! Feedback accelerates the process. But he also says to remember that feedback is usually about the person giving it, not the person receiving it. Take a second to think about it from the perspective of the other person before reacting to it defensively. This helps build empathy and communication. 
 
 Flow was really cool to learn about and to have that tool of when to push yourself and when to step back depending on where you are in the challenge & skill graph. It gives me something to use in times of extreme frustration and reminds me to keep practicing something in flow state so that I really learn it. It's not just about reading or doing it once, practice is what makes it really count. 
 
@@ -64,3 +64,5 @@ Lastly, this is the __mission statement__ I wrote for myself. It needs work, and
 _To create work at the intersection of social justice and tech that will increase access to a better life for others (web accessibility, reproductive rights, pulling up other latinas)._
 
 ![Drawing of women helping each other climb](https://media.giphy.com/media/3o7abBphHJngINCHio/giphy.gif)
+
+Thank you 8th Light for a wonderful week! And thank you #bees&cheese cohort for sharing, being vulnerable, and being supportive.
